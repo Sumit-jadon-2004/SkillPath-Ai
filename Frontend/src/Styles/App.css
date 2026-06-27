@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0px;
+    background-color: #f4f4f9;
+}
+.dark body{
+    background-color: #0f0f1a;
+}
+.dark{
+    background: #111;
+    color: white;
+}
+
+.light{
+    background: white;
+    color: black;
+}
