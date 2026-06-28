@@ -1,0 +1,89 @@
+.Landing-section-card{
+    background-color: #736cff18;
+    padding: 5rem 0;
+}
+.card-container{
+    margin:0px auto;
+    max-width: 1200px;
+}
+.section-title{
+    text-align: center;
+    font-size: 36px;
+    margin: 0 0 16px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+.section-subtitle{
+    text-align: center;
+    font-size: 16px;
+    max-width: 600px;
+    color: #5a5a7aeb;
+    margin: 0 auto 3rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000014;
+    padding: 32px;
+    background-color: #ffffffd8;
+    border-radius: 14px;
+    width: 270px;
+    transition: transform ease-in-out 0.2s;
+}
+.card:hover{
+    border:  1px solid #5a52d5;
+    transform: translateY(-3px) scale(1);
+     box-shadow: 0 8px 13px rgba(0, 0, 0, 0.1);
+}
+.dark .card{
+    border: 1px rgba(128, 128, 128, 0.211) solid;
+    background-color: #1e1e32;
+}
+.Card-icon{
+    border: 1px solid black;
+    height: 64px;
+    width: 64px;
+    border-radius: 14px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.Card-tittle{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+.Card-Pra{
+    font-size: 14px;
+    color: #5a5a7a;
+    text-align: center;
+    line-height: 1.7;
+}
+.dark .Card-Pra, .dark .section-subtitle{
+    color: #9090B0;
+}
+
+/* Work Section */
+
+.section-Work{
+    padding:5rem 0;
+    background-color: #fff;
+}
+.dark .section-Work{
+    background-color: #1a1a2e;
+}
+.Work-Icon{
+    width: 220px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #1e1e2d;
+}

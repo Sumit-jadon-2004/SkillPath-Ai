@@ -1,0 +1,24 @@
+
+
+.dark footer{
+    background: #1a1a2e !important;
+    border-top: 1px solid #2d2d4d !important;
+}
+
+.dark footer h4,
+.dark footer p,
+.dark footer a{
+    color: #9090b0 !important;
+}
+
+.dark footer svg{
+    color: #9090b0 !important;
+}
+
+.dark footer .logo-icon{
+    color: #6C63FF !important;
+}
+
+.dark footer a:hover{
+    color: #ffffff !important;
+}
