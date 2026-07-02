@@ -1,4 +1,9 @@
 @import "tailwindcss";
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body{
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 0px;
@@ -15,4 +20,14 @@ body{
 .light{
     background: white;
     color: black;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: #6060ac56;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #736cff2f;
 }

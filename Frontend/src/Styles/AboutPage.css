@@ -1,0 +1,140 @@
+.Skill-section{
+    padding: 5rem 0;
+    background-color: #f4f4f9;
+}
+
+.dark .Skill-section{
+background:
+       radial-gradient(circle at -69% 20%, rgba(122, 114, 250, 0.18), transparent 35%),
+        radial-gradient(circle at  10%, rgba(0, 184, 148, 0.10), transparent 0%),
+        radial-gradient(circle at 0% 0%, rgba(122, 114, 250, 0.08), transparent 0%),
+        linear-gradient(180deg, #0f1328 0%, #0a0f1d 19%);
+position: relative;
+
+overflow: hidden;
+}
+
+.Skill-Container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+.Skill-badge{
+    border: #00d4aa4d 1px solid;
+    padding: 6px 16px;
+    border-radius: 9999px;
+    background: #00d4aa1a;
+    color: #00b894;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.Skill-Goal{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 24px;
+}
+@media (max-width : 480px) {
+    .Skill-Goal{
+        font-size: 36px;
+    }
+}
+.Skill-Container p {
+    color: #5a5a7adb;
+    display: flex;
+}
+.Skill-section-second{
+    padding : 5rem 0;
+    background: #f4f4f9;
+    
+}
+.dark .Skill-section-second{
+    background-color: #0a0f1d;
+}
+.Data-Container{
+    max-width: 1200px;
+    padding: 0 24px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    
+}
+.Container-Information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+@media (max-width : 480px) {
+    .Container-Information{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.left{
+    grid-column: 1/2;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Skill-Card{
+    padding: 24px;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 16px;
+    border: #00000014 1px solid ;
+    transition: all .2s ease;
+    display: flex;
+}
+.Technical-Stack{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #00000014;
+}
+.badges-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    display: flex;
+    justify-content: center;
+}
+.badge{
+    padding: 8px 16px;
+    border-radius: 24px;
+    color: #7b72faf6;
+    font-weight: 600;
+    background-color: #5b52d51d;
+    
+}
+.dark .Skill-Card{
+    background: #1E1E32;
+}
+.dark .left p{
+    color: #9090B0;
+}
+.dark .ParaSkill{
+    color: #9090B0;
+}
+.dark .Technical-Stack{
+    background: #1a1a2e;
+}

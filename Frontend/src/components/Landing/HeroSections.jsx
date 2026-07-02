@@ -1,6 +1,9 @@
 import { FiArrowRight } from "react-icons/fi";
+import { useContext } from "react";
+import { ThemeContext } from "../../Context/ThemeProvider";
 
 function HeroSection() {
+  const {mode} = useContext(ThemeContext);
   return (
     <section className='flex items-center justify-center gap-20 flex-wrap section-Hero' >
       <div className='Hero-content '>
@@ -9,6 +12,20 @@ function HeroSection() {
       <div className="flex gap-4">
         <button className="flex items-center gap-2 Hero-Button">Start Learning Free <FiArrowRight /></button>
         <button className="btn-learnMore">Learn More</button>
+      </div>
+      <div className="flex mt-10 items-center gap-8">
+        <div>
+          <div style={{fontSize:'24px', color:'#00b894', fontWeight:'700', lineHeight:''}}>10K+</div>
+          <div style={{color: mode ? '#9090B0' : '#5a5a7a', fontSize:'14px'}}>Students</div>
+        </div>
+        <div>
+          <div style={{fontSize:'24px', color:'#00b894', fontWeight:'700', lineHeight:''}}>500+</div>
+          <div style={{color: mode ? '#9090B0' : '#5a5a7a', fontSize:'14px'}}>Roadmaps</div>
+        </div>
+        <div>
+          <div style={{fontSize:'24px', color:'#00b894', fontWeight:'700', lineHeight:''}}>98%</div>
+          <div style={{color: mode ? '#9090B0' : '#5a5a7a', fontSize:'14px'}}>Satisfaction</div>
+        </div>
       </div>
       </div>
       <div className='flex items-center justify-center'>
